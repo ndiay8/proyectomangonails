@@ -7,21 +7,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../recursos/logomango.png" type="#">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Servicios</title>
 </head>
 
 <body>
     <header class="header">
-        <nav>
-            <ul>
-                <li><a class="barra" href="../pages/servicios.html">Servicios</a></li>
-                <li><a class="barra" href="reseñas.html">Reseñas</a></li>
-                <li><a href="../index.html"><img src="../recursos/logomango.png" id="arriba" alt="logoMango"></a></li>
-                <li><a class="barra" href="../pages/nosotros.html">Nosotros</a></li>
-                <li><a class="barra" href="../pages/contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="logo-mobile" href="../index.html"><img src="../recursos/logomango.png" id="arriba" alt="logoMango"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./servicios.html">servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./reseñas.html">reseñas</a>
+                        </li>
+                        <a class="navbar-brand" href="../index.html"><img class="img" src="../recursos/logomango.png" id="arriba" alt="logoMango"></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
+
     </header>
+
 
     <main class="main__servicios">
         <div class="titulo">
@@ -94,6 +114,7 @@
             </div>
         </article>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 
 </html>

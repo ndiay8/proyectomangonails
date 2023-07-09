@@ -410,12 +410,16 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     background-color: #F4FAD3;
     color: #FF80BE;
     display: flex;
     align-items: center;
 
+}
+
+.main__servicios h1 {
+    margin-top: 5px;
 }
 
 .main__servicios .titulo {
@@ -437,8 +441,8 @@
     justify-content: space-evenly;
 }
 
-.main__serviciosvalores img {
-    width: 35%;
+.main__servicios .main__serviciosvalores img {
+    width: 600px; ;
 
 }
 
@@ -449,7 +453,7 @@
 /* reseñas */
 
 .main__reseñas {
-    margin-top: 100px;
+    /* margin-top: 100px; */
     background-color: #F4FAD3;
 }
 
@@ -457,7 +461,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     background-color: #F4FAD3;
     color: #FF80BE;
     display: flex;
@@ -629,17 +633,8 @@ textarea::placeholder {
 }
 
 @media (max-width: 991px) {
-    .header nav {
-        background-color: #B1A5F1 !important;
-        height: 75px;
-        max-width: 100%;
-        box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
-    }
 
-    .logo-mobile img {
-        display: block;
-        height: 60px;
-    }
+    /* index */
 
     .main .main__retrato {
         margin: 3%;
@@ -757,6 +752,19 @@ textarea::placeholder {
         justify-content: space-around;
     }
 
+    /* header y footer */
+    .header nav {
+        background-color: #B1A5F1 !important;
+        height: 75px;
+        max-width: 100%;
+        box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .logo-mobile img {
+        display: block;
+        height: 60px;
+    }
+
     .footer {
         background-color: #B1A5F1;
         color: white;
@@ -821,9 +829,52 @@ textarea::placeholder {
         flex-direction: column;
         flex-wrap: nowrap;
     }
+
+    .footer__footer .footer__siguenos h5 {
+        font-size: 1rem;
+    }
+
+    .footer__finalmediosdepago p {
+        font-size: 0.7rem;
+    }
+
+    .footer__derechos small {
+        font-size: 0.7rem;
+    }
+
+/* Servicios */
+.main__servicios .titulo {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    margin-right: 0px;
+    width: 250px;
+    justify-content: center;
+    background-color: #231F3A;
+    border-radius: 100px;
 }
 
-@media (max-width: 1344px) {
+.main__servicios h1 {
+    font-size: 2rem;
+}
+
+.main__serviciosvalores {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main__servicios .main__serviciosvalores img {
+    width: 360px; ;
+
+}
+}
+
+
+@media (max-width: 1250px) {
+    /* index */
     .main__hola2 {
         display: flex;
         align-items: center;
@@ -846,4 +897,81 @@ textarea::placeholder {
     height: 430px;
    
 } */
+.footer {
+    background-color: #B1A5F1;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
+
+.footer .footer__logo2 {
+    height: 90px;
+}
+
+.footer__logo {
+    margin: 0.5%;
+
+}
+
+.footer.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0px;
+}
+
+.footer__footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+ol,
+ul {
+    padding-left: 0px !important;
+}
+
+.footer__final .footer__finalmediosdepago {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer__mediosdepago1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.footer__footer .footer__siguenos h5 {
+    font-size: 1rem;
+}
+
+.footer__finalmediosdepago p {
+    font-size: 0.7rem;
+}
+
+.footer__derechos small {
+    font-size: 0.7rem;
+}
+}
+
