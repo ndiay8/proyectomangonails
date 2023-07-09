@@ -1,0 +1,555 @@
+* {
+    font-family: "oakes light";
+    padding: 0px;
+    margin: 0px;
+}
+
+* h1 {
+    font-family: "Recoleta bold";
+}
+
+/* Index */
+.header .barra {
+    margin-bottom: 45px;
+
+}
+
+.header nav {
+    background-color: #B1A5F1;
+    height: 100px;
+    width: 100%;
+    box-shadow: 2px 2px 3px rgba(90, 85, 85, 0.5)
+}
+
+.header figure {
+    display: flex;
+    justify-content: center;
+}
+
+.header img {
+    position: relative;
+    height: 110px;
+    margin: 5px;
+}
+
+.header ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header li {
+    display: inline;
+    margin: 10px;
+}
+
+.header a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: "oakes light";
+    padding: 5px;
+    display: flex;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #B1A5F1;
+    height: 100px;
+    z-index: 9999
+}
+
+.main {
+    background-color: #F4FAD3;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.main .main__imghero {
+    /* height: 622px; */
+    margin-top: 100px;
+    width: 100%;
+}
+
+.main .main__retrato {
+    margin: 7%;
+    height: 550px;
+    margin-left: 20px;
+}
+
+.main p {
+    width: 400px;
+    font-family: "oakes light";
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.main__presentacion0 {
+    font-family: "Recoleta bold";
+    color: #FF80BE;
+    font-size: 4rem;
+}
+
+.main__presentacion1 {
+    font-family: "Recoleta bold";
+    color: #231F3A;
+    font-size: 4rem;
+}
+
+.main__hola {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main__hola2 {
+    display: flex;
+    align-items: center;
+    margin-left: 144px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.main .main__imagenes3 {
+    background-color: #BCFFBB;
+    padding: 40px;
+}
+
+@font-face {
+    font-family: "oakes light";
+    src: url(../recursos/tipografia/Oakes\ Grotesk\ Light.ttf);
+}
+
+@font-face {
+    font-family: "oakes bold";
+    src: url(../recursos/tipografia/Oakes\ Grotesk\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "oakes semibold";
+    src: url(../recursos/tipografia/Oakes\ Grotesk\ SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Recoleta bold";
+    src: url(../recursos/tipografia/Recoleta-Bold.ttf);
+}
+
+.main__sectioncolor {
+    position: relative;
+    display: inline-block;
+}
+
+.main__textocolor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 20px;
+    font-size: 5rem;
+    font-family: "Recoleta bold";
+}
+
+.main_sectiondiseño {
+    position: relative;
+    display: inline-block;
+}
+
+.main__textodiseño {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 20px;
+    font-size: 5rem;
+    font-family: "Recoleta bold";
+}
+
+.main__sectioncreatividad {
+    position: relative;
+    display: inline-block;
+}
+
+.main__textocreatividad {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 20px;
+    font-size: 4rem;
+    font-family: "Recoleta bold";
+}
+
+.main__imagenes3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer {
+    background-color: #B1A5F1;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row dense;
+    grid-template-areas:
+        "footer__logo2 footer__footer footer__footer footer__mapa"
+        ". . . ."
+        ". . . .";
+    justify-items: center;
+    /* justify-content: start; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer__logo2 {
+    grid-area: footer__logo2;
+}
+
+.footer__footer {
+    grid-area: footer__footer;
+}
+
+.footer__mapa {
+    grid-area: footer__mapa;
+}
+
+.footer__footer {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.footer_logo a {
+    height: 135px;
+}
+
+.footer .footer__logo2 {
+    flex-wrap: nowrap;
+    height: 142px;
+    margin: 10px;
+}
+
+.footer__siguenos {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.footer__rrss {
+    display: flex;
+    margin-left: 0px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer__rrss li {
+    margin: 0%;
+}
+
+.footer__rrss img {
+    margin: 0px;
+    height: 20px;
+}
+
+.footer h5 {
+    font-family: "oakes light";
+    /* margin: 20px; */
+    /* margin-left: 40px; */
+}
+
+.footer ul {
+    list-style: none;
+    margin: 20px;
+}
+
+.footer__nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.footer .footer__nav a {
+    text-decoration: none;
+    color: white;
+    font-family: "oakes light";
+    margin: 20px;
+}
+
+.footer__mapa {
+    display: flex;
+    margin: 10px;
+    justify-content: flex-end;
+
+}
+
+.footer__final {
+    color: white;
+    background-color: #B1A5F1;
+    /* display: flex;
+    align-items: baseline;
+    flex-direction: row; */
+}
+
+.footer__final .footer__finalmediosdepago {
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer__final .footer__derechos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+a:hover {
+    color: #231F3A;
+    font-family: "oakes bold";
+}
+
+/* Servicios */
+
+.main__servicios {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: #F4FAD3;
+    color: #FF80BE;
+    display: flex;
+    align-items: center;
+
+}
+
+.main__servicios .titulo {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 0;
+    text-align: center;
+    margin-right: 17px;
+    width: 500px;
+    justify-content: center;
+    background-color: #231F3A;
+    border-radius: 100px;
+
+}
+
+.main__serviciosvalores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main__serviciosvalores img {
+    width: 35%;
+
+}
+
+.main__serviciosBanner {
+    width: 100%;
+}
+
+/* reseñas */
+
+.main__reseñas {
+    margin-top: 100px;
+    background-color: #F4FAD3;
+}
+
+.main__reseñas-titulo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: #F4FAD3;
+    color: #FF80BE;
+    display: flex;
+    align-items: center;
+}
+
+.main__reseñas-titulo h1 {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 17px;
+    text-align: center;
+    width: 500px;
+    justify-content: center;
+    background-color: #231F3A;
+    border-radius: 100px;
+}
+
+.main__reseñas-formas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main__reseñas-formas span {
+    margin-top: 20px;
+}
+
+.main__reseñas-formas .reseña {
+    font-family: "Recoleta bold";
+    font-size: xx-large;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(90, 85, 85, 0.5);
+}
+
+.main__forma-catalina {
+    position: relative;
+    display: inline-block;
+}
+
+.main__forma-catalina img {
+    width: 90%;
+}
+
+.main__reseñacatalina {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: #231F3A;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: "oakes light";
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__forma-ali {
+    position: relative;
+    display: inline-block;
+}
+
+.main__forma-ali img {
+    width: 90%;
+}
+
+.main__reseñaali {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: #231F3A;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: "oakes light";
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__forma-emily {
+    position: relative;
+    display: inline-block;
+}
+
+.main__forma-emily img {
+    width: 90%;
+}
+
+.main__reseñaemily {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: #231F3A;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: "oakes light";
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.formulario2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formulario2 input {
+    font-family: "Oakes light";
+    border: none;
+    border-radius: 3px;
+    background-color: #FF81BF;
+    color: #231F3A;
+    text-transform: none;
+    font-size: 16px;
+    margin: 10px;
+    text-align: left;
+    width: 60%;
+    display: flex;
+   flex-direction: column;
+}
+input::placeholder {
+    color: white; 
+}
+input , textarea{
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    background-color: #FF80BE;
+    padding: 15px 14px;
+    width: 40%;
+    border: none;
+}
+textarea::placeholder{
+    color: white;
+}
+.formulario2 .enviar {
+    color: white;
+    background-color: #B1A5F1;
+    width: auto;
+    text-align: center;
+}
+
+
+/* Nosotros */
+
+/* Contacto */
+.formulario {
+    background-color: #FBF6F0;
+}
+
+.formulario input {
+    font-family: 'Oakes light';
+    border-color: #FF80BE;
+    background-color: transparent;
+    text-transform: none;
+    font-size: 13px;
+    text-align: justify;
+}
