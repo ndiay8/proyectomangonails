@@ -780,14 +780,16 @@ textarea::placeholder {
     /* header y footer */
     .header nav {
         background-color: #B1A5F1 !important;
-        height: 75px;
+        height: 58px;
         max-width: 100%;
         box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
     }
 
     .logo-mobile img {
+        margin-top: -4px;
         display: block;
-        height: 60px;
+        height: 50px;
+        
     }
 
     .footer {
