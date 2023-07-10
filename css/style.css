@@ -22,7 +22,7 @@
     max-width: 100%;
     box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
     z-index: 3;
-    }
+}
 
 .navbar-nav li a {
     font-family: "oakes light";
@@ -33,7 +33,6 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-end; */
-    
 }
 
 .navbar-collapse ul {
@@ -45,13 +44,10 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-   
-   
 }
 
 .navbar-collapse {
     justify-content: center;
-
 }
 
 /* .header figure {
@@ -376,7 +372,6 @@
     display: flex;
     margin: 10px;
     justify-content: flex-end;
-
 }
 
 .footer__final {
@@ -418,7 +413,6 @@
     color: #FF80BE;
     display: flex;
     align-items: center;
-
 }
 
 .main__servicios h1 {
@@ -435,7 +429,6 @@
     justify-content: center;
     background-color: #231F3A;
     border-radius: 100px;
-
 }
 
 .main__serviciosvalores {
@@ -447,7 +440,6 @@
 .main__servicios .main__serviciosvalores img {
     width: 600px;
     ;
-
 }
 
 .main__serviciosBanner {
@@ -499,7 +491,8 @@
 .main__reseñas-formas span {
     margin-top: 10px;
 }
-.main__reseñas-formas img{
+
+.main__reseñas-formas img {
     margin: 10px;
     align-items: center;
 }
@@ -516,17 +509,15 @@
     position: relative;
     display: inline-block;
     z-index: 1;
-    
 }
 
 .main__forma-catalina img {
     width: 100%;
-    
 }
 
 .main__reseñacatalina {
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 53%;
     transform: translate(-50%, -50%);
     color: #231F3A;
@@ -635,7 +626,6 @@ textarea::placeholder {
     width: auto;
     text-align: center;
 }
-
 
 /* Nosotros */
 
@@ -789,7 +779,6 @@ textarea::placeholder {
         margin-top: -4px;
         display: block;
         height: 50px;
-        
     }
 
     .footer {
@@ -807,7 +796,6 @@ textarea::placeholder {
 
     .footer__logo {
         margin: 0.5%;
-
     }
 
     .footer.footer {
@@ -870,7 +858,7 @@ textarea::placeholder {
     }
 
     /* Servicios */
-    
+
     .main__servicios .titulo {
         display: flex;
         margin-top: 20px;
@@ -897,8 +885,8 @@ textarea::placeholder {
     .main__servicios .main__serviciosvalores img {
         width: 360px;
         ;
-
     }
+
     /* reseñas */
     .main__reseñas .main__reseñas-titulo h1 {
         font-size: 2rem;
@@ -913,6 +901,7 @@ textarea::placeholder {
         border-radius: 100px;
         align-items: center;
     }
+
     /* .main__reseñas-titulo h1 {
         display: flex;
         margin-top: 20px;
@@ -927,13 +916,15 @@ textarea::placeholder {
     .main__reseñas h1 {
         font-size: 2rem;
     }
-    .main__reseñas-formas .main__forma-catalina{
+
+    .main__reseñas-formas .main__forma-catalina {
         display: flex;
         flex-direction: column;
         align-content: center;
         flex-wrap: wrap;
         width: 300px;
     }
+
     .main__reseñacatalina {
         position: absolute;
         top: 50%;
@@ -948,14 +939,16 @@ textarea::placeholder {
         flex-direction: column;
         z-index: 2;
     }
-    .main__reseñas-formas .main__forma-ali{
+
+    .main__reseñas-formas .main__forma-ali {
         display: flex;
         flex-direction: column;
         align-content: center;
         flex-wrap: wrap;
         width: 300px;
     }
-    .main__reseñaali{
+
+    .main__reseñaali {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -969,13 +962,15 @@ textarea::placeholder {
         flex-direction: column;
         z-index: 2;
     }
-    .main__reseñas-formas .main__forma-emily{
+
+    .main__reseñas-formas .main__forma-emily {
         display: flex;
         flex-direction: column;
         align-content: center;
         flex-wrap: wrap;
         width: 300px;
     }
+
     .main__reseñaemily {
         position: absolute;
         top: 50%;
@@ -1033,7 +1028,6 @@ textarea::placeholder {
 
     .footer__logo {
         margin: 0.5%;
-
     }
 
     .footer.footer {
